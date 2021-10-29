@@ -1,0 +1,227 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    padding: 60em 15em 0 15em;
+    width: 100%;
+}
+
+.about-container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.cta-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-container {
+    width: 20em;
+    height: 15em;
+    border-style: solid;
+    border-color: #4bed8e;
+}
+
+.years-experience {
+    padding: 0.25em;
+    font-size: 5em;
+    color: #4bed8e;
+}
+
+hr {
+    align-self: center;
+    width: 25%;
+    color: #4bed8e;
+}
+
+.career-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin: 2em 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.experience-entry {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    margin: 2em 0;
+    padding: 1em;
+    border-left-style: solid;
+    border-left-color: #4bed8e;
+}
+
+h6 {
+    color: white;
+    text-align: center;
+}
+
+.tech-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 2em 0;
+}
+
+thead {
+    color: white;
+}
+
+img {
+     width: 1em;
+     
+}
+
+.icofont {
+    color: #4bed8e;
+}
+
+li {
+    color: white;
+    list-style-type: none;
+    margin: 0.25em 0;
+}
+
+h3 {
+    color: white;
+}
+
+h4 {
+    color: white;
+}
+
+h5 {
+    font-family: monospace;
+    color: #4bed8e;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    max-width: 25em;
+    color: #919191;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: monospace;
+    color: #4bed8e;
+    max-width: 11em;
+    margin: 0.75em 0;
+    padding: 0.75em;
+    border-style: solid;
+    border-color: #4bed8e;
+    border-radius: 5%;
+    background-color: #8b000000;
+    transition: background-color 1s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4bed8e3c;
+    transition: background-color 1s;
+}
+
+@media only screen and (max-width: 1325px) {
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 89em;
+        width: 100%;
+    }
+
+    .about-container1 {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        height: 100%;
+    }
+
+    .cta-container {
+        margin: 0;
+    }
+    
+    p {
+        margin: 0;
+        padding: 0;
+        max-width: 30em;
+        color: #919191;
+    }
+
+    .experience-entry {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        align-items: flex-start;
+        margin: 2em 0;
+        padding: 1em;
+        border-left-style: solid;
+        border-left-color: #4bed8e;
+    }
+
+    .info-container {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: 30em;
+        height: 10em;
+        margin: 1em 0;
+        padding: 0;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-self: center;
+    }
+    
+    button {
+        font-family: monospace;
+        color: #4bed8e;
+        width: 11em;
+        margin: 0.75em 0;
+        padding: 0.75em;
+        border-style: solid;
+        border-color: #4bed8e;
+        border-radius: 5%;
+        background-color: #8b000000;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #4bed8e3c;
+    }
+}
+
+@media only screen and (max-width: 974px) {
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        padding: 89em 5em 0 5em;
+    }
+}
+
+@media only screen and (max-width: 615px) {
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        padding: 90em 1em 0 1em;
+    }
+}
+

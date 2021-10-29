@@ -1,0 +1,219 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 15em;
+}
+
+.contact-container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cta-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h3 {
+    color: white;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    max-width: 22em;
+    color: #919191;
+}
+
+.icofont {
+    color: #4bed8e;
+}
+
+li {
+    color: white;
+    list-style-type: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+input {
+    border-style: solid;
+    border-width: thin;
+    border-radius: 50px;
+    border-color: #4bed8e;
+    color: white;
+    margin: 0 0.25em;
+    padding: 0;
+    height: 2em;
+    background-color: #06060a;
+}
+
+.form-container2 {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    border-style: solid;
+    border-width: thin;
+    border-radius: 12px;
+    border-color: #4bed8e;
+    color: white;
+    margin: 0.75em 0.25em;
+    padding: 0;
+    height: 7em;
+    background-color: #06060a;
+}
+
+::placeholder {
+    padding: 1em;
+    color: white;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: monospace;
+    color: #4bed8e;
+    max-width: 11em;
+    margin: 0.75em 0.25em;
+    padding: 0.75em;
+    border-style: solid;
+    border-color: #4bed8e;
+    border-radius: 5%;
+    background-color: #8b000000;
+    transition: background-color 1s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4bed8e3c;
+    transition: background-color 1s;
+}
+
+@media only screen and (max-width: 1325px) {
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 5em;
+    }
+
+    .contact-container1 {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        height: 100%;
+    }
+
+    .cta-container {
+        margin: 0;
+    }
+    
+    p {
+        margin: 0;
+        padding: 0;
+        max-width: 30em;
+        color: #919191;
+    }
+
+    .icofont-ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 20em;
+        margin: 1em 0 0 0;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        margin: 1em 0;
+        padding: 0;
+    }
+
+    .form-container1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    input {
+        border-style: solid;
+        border-width: thin;
+        border-radius: 50px;
+        border-color: #4bed8e;
+        color: white;
+        margin: 0.25em 0;
+        padding: 0;
+        height: 2em;
+        background-color: #06060a;
+    }
+
+    .form-container2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    textarea {
+        border-style: solid;
+        border-width: thin;
+        border-radius: 12px;
+        border-color: #4bed8e;
+        color: white;
+        margin: 0.25em 0;
+        padding: 0;
+        background-color: #06060a;
+    }
+
+    button {
+        font-family: monospace;
+        color: #4bed8e;
+        width: 11em;
+        margin: 0.75em 0;
+        padding: 0.75em;
+        border-style: solid;
+        border-color: #4bed8e;
+        border-radius: 5%;
+        background-color: #8b000000;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #4bed8e3c;
+    }
+}
+
+@media only screen and (max-width: 615px) {
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 1em;
+    }
+
+    .form-container1 {
+        display: flex;
+        flex-direction: column;
+    }
+}

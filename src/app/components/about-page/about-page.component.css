@@ -110,7 +110,7 @@ h5 {
 p {
     margin: 0;
     padding: 0;
-    max-width: 25em;
+    max-width: 30em;
     color: #919191;
 }
 
@@ -221,7 +221,14 @@ button:hover {
     .about-container {
         display: flex;
         flex-direction: column;
-        padding: 90em 1em 0 1em;
+        padding: 97em 1em 0 1em;
+    }
+
+    .info-container {
+        width: 25em;
+        height: 15em;
+        border-style: solid;
+        border-color: #4bed8e;
     }
 }
 

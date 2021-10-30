@@ -12,16 +12,27 @@
             </ul>
         </div>
     
-        <form>
+        <form name="contact" method="POST" data-netlify="true">
             <div class="form-container1">
-                <input type="text" placeholder="NAME">
-                <input type="text" placeholder="EMAIL">
-                <input type="text" placeholder="SUBJECT">
+                <label>
+                    <input type="text" name="name" placeholder="NAME">
+                </label>
+                
+                <label>
+                    <input type="email" name="email" placeholder="EMAIL">
+                </label>
+                
+                <label>
+                    <input type="text" name="subject" placeholder="SUBJECT">
+                </label>
             </div>
     
             <div class="form-container2">
-                <textarea type="text" placeholder="MESSAGE"></textarea>
-                <button>SEND MESSAGE</button>
+                <label>
+                    <textarea name="message" placeholder="MESSAGE"></textarea>
+                </label>
+
+                <button type="submit">SEND MESSAGE</button>
             </div>
         </form>
     </div>

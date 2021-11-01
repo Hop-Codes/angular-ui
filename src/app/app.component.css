@@ -19,6 +19,7 @@ main {
     flex-direction: column;
     justify-content: center;
     padding: 0 15em;
+    margin: 0;
     height: 100%;
     width: 100%;
 }
@@ -38,11 +39,12 @@ footer {
     height: 0.025em;
 }
 
-@media only screen and (max-width: 975px) {
+@media only screen and (max-width: 1000px) {
     main {
         display: flex;
         flex-direction: column;
-        padding: 0 1em;
+        padding: 15em 0;
+        margin: 0;
     }
 }
 

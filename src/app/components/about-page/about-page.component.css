@@ -319,18 +319,6 @@ button:hover {
     .about-container {
         margin-top: 80em;
     }
-}
-
-@media only screen and (max-width: 375px) {
-    .about-container {
-        margin-top: 88em;
-    }
-}
-
-@media only screen and (max-width: 320px) {
-    .about-container {
-        margin-top: 95em;
-    }
 
     .about-container1 {
         width: 100%;
@@ -342,5 +330,17 @@ button:hover {
 
     .info-container {
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .about-container {
+        margin-top: 88em;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .about-container {
+        margin-top: 95em;
     }
 }

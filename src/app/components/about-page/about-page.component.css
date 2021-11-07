@@ -339,3 +339,15 @@ button:hover {
         margin-top: 80em;
     }
 }
+
+@media only screen and (max-width: 375px) {
+    .about-container {
+        margin-top: 88em;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .about-container {
+        margin-top: 95em;
+    }
+}

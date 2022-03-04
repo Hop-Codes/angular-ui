@@ -9,9 +9,12 @@ import { ContactPageComponent } from '../contact-page/contact-page.component';
 })
 export class HomePageComponent implements OnInit {
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
   }
 
+  public getRoute(): string {
+    return "string";
+  }
 }

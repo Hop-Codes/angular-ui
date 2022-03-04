@@ -333,8 +333,10 @@
                 background-color: rgba(255, 255, 255, 0);
                 color: #fff;
                 width: 20em;
+                height: 8em;
                 border-radius: 1em;
                 border: solid 1px #fff;
+                margin: 0.25em;
             }
 
             input {
@@ -343,6 +345,7 @@
                 width: 20em;
                 border-radius: 1em;
                 border: solid 1px #fff;
+                margin: 0.25em;
             }
 
             .form-container1 {

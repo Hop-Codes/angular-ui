@@ -323,13 +323,13 @@
                 display: none;
             }
 
-            #header form {
+            form {
                 display: flex;
                 flex-direction: column;
                 margin: 1.5em 0 0 0;
             }
 
-            #header textarea {
+            textarea {
                 background-color: rgba(255, 255, 255, 0);
                 color: #fff;
                 width: 20em;
@@ -337,7 +337,7 @@
                 border: solid 1px #fff;
             }
 
-            #header input {
+            input {
                 background-color: rgba(255, 255, 255, 0);
                 color: #fff;
                 width: 20em;

@@ -108,8 +108,7 @@ html,body{
 } */
 
 .header{
-	padding-top:20px;
-	padding-bottom: 12px;
+	padding: 0.25em 0;
 
 }
 .header li  a{
@@ -204,7 +203,7 @@ html,body{
 .navbar-brand,
 .navbar-brand:hover,
 .navbar-brand:focus{
-	margin-top: 33px;
+	margin: 1em 0;
 	padding:0;
 }/* navbar-brand */
 
@@ -212,25 +211,26 @@ html,body{
 .wrapper-sticky{
 	position: relative;
 	display: inline-block;
-	background: rgba(115,112,216,1);
+	background: #f9faff;
 }
 
 /* sticky */
 .sticky{
-	background: rgba(115,112,216,1);
-	padding: 10px 0px 0px;
+	background: #f9faff;
+	padding: 0;
+	margin: 0;
 	height:80px;
 	color: #fff;
 }
 
 .sticky  .navbar-brand{
-	margin-top:20px;
+	margin: 0;
 }
 .sticky  .navbar-default .navbar-nav li a,
 .sticky  .navbar-default .navbar-nav li a:active,
 .sticky  .navbar-default .navbar-nav li a:focus,
 .sticky  .navbar-default .navbar-nav li a:hover{
-	color: #fff;
+	color: #888;
 	margin: 0px 0px;
 }
 .sticky .navbar-default .navbar-toggle ,
@@ -250,7 +250,7 @@ html,body{
 }
 .navbar-default .navbar-nav li a{
 	font-size: 16px;
-	color: #fff;
+	color: #888;
 	font-family: 'Lato', sans-serif;
 	margin-top:18px;
 	padding-left: 27px;
@@ -263,7 +263,7 @@ html,body{
 .navbar-default.navbar-nav li a:active,
 .navbar-default.navbar-nav li a:focus,
 .navbar-default .navbar-nav li a:hover{
-	color: #fff;
+	color: #000;
 	outline: 0;
 	font-weight:700;
 	margin-top:18px;

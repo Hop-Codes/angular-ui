@@ -9,6 +9,7 @@ import { ContactPageComponent } from './components/contact-page/contact-page.com
 import { AboutPageComponent } from './components/about-page/about-page.component';
 import { NavbarItemsComponent } from './components/navbar-items/navbar-items.component';
 import { FooterItemsComponent } from './components/footer-items/footer-items.component';
+import { HeaderItemsComponent } from './components/header-items/header-items.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FooterItemsComponent } from './components/footer-items/footer-items.com
     ContactPageComponent,
     AboutPageComponent,
     NavbarItemsComponent,
-    FooterItemsComponent
+    FooterItemsComponent,
+    HeaderItemsComponent
   ],
   imports: [
     BrowserModule,

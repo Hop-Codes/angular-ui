@@ -204,7 +204,7 @@ html,body{
 .navbar-brand,
 .navbar-brand:hover,
 .navbar-brand:focus{
-	margin-top: 33px;
+	margin-top: 10px;
 	padding:0;
 }/* navbar-brand */
 
@@ -212,25 +212,26 @@ html,body{
 .wrapper-sticky{
 	position: relative;
 	display: inline-block;
-	background: rgba(115,112,216,1);
+	background: #f1f3fa;
 }
 
 /* sticky */
 .sticky{
-	background: rgba(115,112,216,1);
+	background: #f1f3fa;
 	padding: 10px 0px 0px;
 	height:80px;
 	color: #fff;
 }
 
 .sticky  .navbar-brand{
-	margin-top:20px;
+	margin-top: -10px;
+	padding-bottom: 10px;
 }
 .sticky  .navbar-default .navbar-nav li a,
 .sticky  .navbar-default .navbar-nav li a:active,
 .sticky  .navbar-default .navbar-nav li a:focus,
 .sticky  .navbar-default .navbar-nav li a:hover{
-	color: #fff;
+	color: #888;
 	margin: 0px 0px;
 }
 .sticky .navbar-default .navbar-toggle ,
@@ -250,7 +251,7 @@ html,body{
 }
 .navbar-default .navbar-nav li a{
 	font-size: 16px;
-	color: #fff;
+	color: #888;
 	font-family: 'Lato', sans-serif;
 	margin-top:18px;
 	padding-left: 27px;
@@ -609,7 +610,7 @@ html,body{
 		5. About
 --------------------------------------*/
 .about-us{
-	background: #f9faff;
+	background: #f1f3fa;
 	padding: 120px 0 175px;
 }
 .about-us-txt{
@@ -1125,7 +1126,7 @@ a:active.learn-btn{
 
 .testemonial{
 	position:relative;
-	background: #f9faff;
+	background: #f1f3fa;
 	padding-top: 116px;
 }
 
@@ -1314,7 +1315,7 @@ a:active.learn-btn{
     transition: 0.5s ease-in-out;
 }
 .single-news-box:hover .news-box-inner {
-	background: #f9faff;
+	background: #f1f3fa;
 	
 }/*team-box-inner*/
 .single-news-box:hover{
@@ -1380,11 +1381,11 @@ a:active.learn-btn{
 .contact-form .form-control {
 	padding: 24px 21px;
 	font-size: 16px;
-	border: 1px solid #f9faff;
+	border: 1px solid #f1f3fa;
     border-radius: 0px;
     box-shadow: none;
 	outline:0!important;
-    background:#f9faff;
+    background:#f1f3fa;
     color: #888;
 	resize: none;
 

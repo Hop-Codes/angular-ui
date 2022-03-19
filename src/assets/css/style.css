@@ -264,7 +264,11 @@ html,body{
 .navbar-default.navbar-nav li a:active,
 .navbar-default.navbar-nav li a:focus,
 .navbar-default .navbar-nav li a:hover{
+<<<<<<< HEAD
 	color: #888;
+=======
+	color: #fff;
+>>>>>>> a116d1469dfb67a510215933279bae6b1dbb33f7
 	outline: 0;
 	font-weight:700;
 	margin-top:18px;
@@ -278,7 +282,11 @@ html,body{
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
 	background:transparent;
+<<<<<<< HEAD
     color: #888;
+=======
+    color: #fff;
+>>>>>>> a116d1469dfb67a510215933279bae6b1dbb33f7
 	font-weight:700;
 	font-family: 'Lato', sans-serif;
 	margin-top:18px;

@@ -8,8 +8,10 @@ import { AboutPageComponent } from './components/about-page/about-page.component
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { component: HomePageComponent, path: 'home' },
-  { component: ContactPageComponent, path: 'contact' },
-  { component: AboutPageComponent, path: 'about' }
+  { component: AboutPageComponent, path: 'subsidiaries' },
+  { component: AboutPageComponent, path: 'about' },
+  { component: AboutPageComponent, path: 'community-service' },
+  { component: AboutPageComponent, path: 'news' }
 ];
 
 @NgModule({

@@ -13,6 +13,7 @@ import { HeaderItemsComponent } from './components/header-items/header-items.com
 import { NewsComponent } from './components/news/news.component';
 import { SubsidiariesComponent } from './components/subsidiaries/subsidiaries.component';
 import { CommunityServiceComponent } from './components/community-service/community-service.component';
+import { NewsArticleComponent } from './components/news-article/news-article.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { CommunityServiceComponent } from './components/community-service/commun
     NewsComponent,
     SubsidiariesComponent,
     CommunityServiceComponent,
+    NewsArticleComponent,
   ],
   imports: [
     BrowserModule,

@@ -10,6 +10,10 @@ import { AboutPageComponent } from './components/about-page/about-page.component
 import { NavbarItemsComponent } from './components/navbar-items/navbar-items.component';
 import { FooterItemsComponent } from './components/footer-items/footer-items.component';
 import { HeaderItemsComponent } from './components/header-items/header-items.component';
+import { NewsComponent } from './components/news/news.component';
+import { SubsidiariesComponent } from './components/subsidiaries/subsidiaries.component';
+import { CommunityServiceComponent } from './components/community-service/community-service.component';
+import { NewsArticleComponent } from './components/news-article/news-article.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +23,11 @@ import { HeaderItemsComponent } from './components/header-items/header-items.com
     AboutPageComponent,
     NavbarItemsComponent,
     FooterItemsComponent,
-    HeaderItemsComponent
+    HeaderItemsComponent,
+    NewsComponent,
+    SubsidiariesComponent,
+    CommunityServiceComponent,
+    NewsArticleComponent,
   ],
   imports: [
     BrowserModule,
